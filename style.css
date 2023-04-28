@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+
+* {
+  font-family: 'PT Sans', sans-serif;
+  ;
+}
+
+body {
+  background-color: rgb(43, 126, 127);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  color: white;
+}
+div.container-timer {
+  display: flex;
+  justify-content: center;
+}
+div#timer {
+  display: flex;
+  justify-content: center;  
+  font-size: 90px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.148);
+  width: 500px;
+}
+
+section.input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+div.input{
+  padding-left: 20px;
+  color: white;
+  font-size: 40px;
+}
+
+input.input-number {
+  border: none;
+  color: rgb(255, 255, 255);
+  width: 60px;
+  height: 30px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: rgba(255, 255, 255, 0.437);
+  font-size: 20px;
+
+}
+
+div.btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  
+}
+
+button#btn-start {
+  font-size: 20px;
+  height: 50px;
+  width: 160px;
+  background-color: rgb(255, 255, 255);
+  color:rgb(33, 94, 95);
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+button#btn-restart {
+  font-size: 22px;
+  height: 50px;
+  width: 160px;
+  background-color: rgb(255, 255, 255);
+  color:rgb(33, 94, 95);
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+button#btn-rest {
+  font-size: 22px;
+  height: 50px;
+  width: 160px;
+  background-color: rgb(255, 255, 255);
+  color:rgb(33, 94, 95);
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+}
+
+button#btn-start:active {
+  font-size: 19px;
+}
+
+button#btn-restart:active {
+  font-size: 20px;
+}
+
+button#btn-rest:active {
+  font-size: 20px;
+}
+
+form[name = "tasksContainer"] {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 65px;
+}
+
+input.input-button {
+  font-size: 17.5px;
+  padding-left: 18px;
+  height: 45px;
+  width: 180px;
+  background-color: rgb(255, 255, 255);
+  color:rgb(33, 94, 95);
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input::placeholder {
+  color:rgba(33, 94, 95, 0.908);
+}
+
+button.input-button {
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 5px;
+  width: 130px;
+  background-color: rgb(255, 255, 255);
+  color:rgb(29, 83, 84);
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+
+form.ul-list {
+  display: flex;
+  justify-content: center;
+}
+
+ul.taskList {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 580px;
+}
+
+li.li {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff; 
+  margin-top: 10px;
+  width: 550px;
+  font-size: 20px;
+}
+
+span {
+  color:rgb(29, 83, 84);
+  border: 0.1px solid rgba(255, 255, 255, 0.664);
+  padding: 10px;
+  width: 100%;
+}
+
+input.checkbox-button {
+  background-color: #fff;
+}
+
+button.excluir {
+  border: none;
+  color:rgb(29, 83, 84);
+  background-color: #fff; 
+  border-radius: 3px 3px 3px 3px;
+  width: 100px;
+  font-size: 18px;
+  cursor: pointer;
+}

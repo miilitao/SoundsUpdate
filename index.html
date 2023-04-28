@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro - Pessoal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Método Pomodoro</h1>
+  <div class="container-timer">
+    <div id="timer">00:00:00</div>
+  </div>
+  <section class="input-container">
+    <div class="input">
+      <label for="hour">Horas</label>
+      <input type="number" class="input-number" id="hour" max="24" value="00" min="0">
+    </div>
+    <div class="input">
+      <label for="minute">Minutos</label>
+      <input type="number" class="input-number" id="minute" max="59" value="00" min="0">
+    </div>
+    <div class="input">
+      <label for="second">Segundos</label>
+      <input type="number" class="input-number" id="second" max="59" value="00" min="0">
+    </div>
+  </section>
+  <div class="btns">
+    <button id="btn-start"  >Iniciar Estudos</button>
+    <button id="btn-restart">Recomeçar</button>
+    <button id="btn-rest">Descansar</button>
+  </div>
+
+      <form name="tasksContainer">
+      <input class="input-button" name="input-tasks" type="text" placeholder="Adicionar uma tarefa" id="input-tasks">
+      <button class="input-button" type="submit" id="buttonAddTask">Adicionar</button>
+      </form>
+      <form class="ul-list">
+      <ul class="taskList"></ul>
+      </form>
+  
+ 
+</body>  
+<script src="script.js"></script>
+<script src="todolist.js"></script>
+</html>
